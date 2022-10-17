@@ -1,0 +1,436 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.body {
+  width: 100vw;
+  height: 100vh;
+  padding: 50px;
+  background-image: url("../img/depositphotos_201831692-stock-illustration-decorative-oriental-seamless-pattern-traditional.jpeg");
+}
+.body__h1 {
+  width: 60%;
+  background-color: rgba(153, 104, 19, 0.799);
+  font-weight: 700;
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+  padding: 5%;
+  margin: 0 auto;
+  border: 3px solid rgb(0, 0, 0);
+  text-align: center;
+}
+.screen {
+  margin: 0 auto;
+  border: 10px ridge rgb(130, 40, 7);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75), inset 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  width: 800px;
+  height: 400px;
+  background-color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+.screen__pob {
+  position: absolute;
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  background: url("../img/nalipka.png") 0 0/100% no-repeat;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+.screen__pob:hover {
+  bottom: -20px;
+  left: -80px;
+  -webkit-animation-name: decor1;
+          animation-name: decor1;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  transform: scale3d(4, 4, 1);
+  -webkit-animation-duration: 12s;
+          animation-duration: 12s;
+}
+.screen__decor {
+  position: absolute;
+  display: inline-block;
+  left: 65%;
+  top: 90%;
+  width: 300px;
+  height: 60px;
+  background-color: rgb(65, 220, 14);
+  border-radius: 87% 13% 48% 52%/76% 71% 29% 24%;
+  z-index: 1;
+}
+.screen__decor-1 {
+  position: absolute;
+  display: inline-block;
+  left: 50%;
+  top: 90%;
+  width: 350px;
+  height: 40px;
+  background-color: rgb(24, 57, 13);
+  border-radius: 69% 31% 48% 52%/38% 71% 29% 62%;
+  z-index: 1;
+}
+.screen__decor-1::after {
+  content: "";
+}
+.screen__decor-2 {
+  position: absolute;
+  display: inline-block;
+  left: 30%;
+  top: 93%;
+  width: 350px;
+  height: 40px;
+  background-color: rgb(52, 121, 29);
+  border-radius: 69% 31% 48% 52%/91% 40% 60% 9%;
+  z-index: 1;
+}
+.screen__decor-3 {
+  position: absolute;
+  display: inline-block;
+  left: 0;
+  top: 95%;
+  width: 300px;
+  height: 40px;
+  background-color: rgb(50, 89, 37);
+  border-radius: 14% 86% 48% 52%/84% 40% 60% 16%;
+  z-index: 1;
+}
+.screen__decor-4 {
+  position: absolute;
+  display: inline-block;
+  left: 20%;
+  top: 45%;
+  width: 20px;
+  height: 200px;
+  background-color: rgb(97, 73, 14);
+}
+.screen__decor-4::after {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  left: -350%;
+  top: -25%;
+  width: 200px;
+  height: 70px;
+  background-color: rgb(7, 83, 15);
+  border-radius: 63% 37% 58% 42%/58% 11% 89% 42%;
+  transform: rotate(-75deg);
+  z-index: 1;
+}
+.screen__decor-5 {
+  position: absolute;
+  display: inline-block;
+  right: 30%;
+  top: 50%;
+  width: 20px;
+  height: 200px;
+  background-color: rgb(97, 73, 14);
+}
+.screen__decor-5::after {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  left: -400%;
+  top: -25%;
+  width: 200px;
+  height: 70px;
+  background-color: rgb(7, 83, 15);
+  border-radius: 35% 65% 54% 46%/40% 76% 24% 60%;
+  transform: rotate(-95deg);
+  z-index: 1;
+}
+.screen__object {
+  display: inline-block;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  bottom: -100%;
+  right: 20%;
+  background: url("../img/ducks.png") 0 0/100% no-repeat;
+  -webkit-animation-name: duck;
+          animation-name: duck;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+.screen__object:hover {
+  display: none;
+}
+.screen__object {
+  display: inline-block;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  bottom: -100%;
+  right: 70%;
+  background: url("../img/ducks.png") 0 0/100% no-repeat;
+  -webkit-animation-name: duck1;
+          animation-name: duck1;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+.screen__object:hover {
+  display: none;
+}
+.screen__object-1 {
+  display: inline-block;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  bottom: -100%;
+  right: 20%;
+  background: url("../img/ducks.png") 0 0/100% no-repeat;
+  -webkit-animation-name: duck4;
+          animation-name: duck4;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+.screen__object-1:hover {
+  display: none;
+}
+.screen__object-2 {
+  display: inline-block;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  bottom: -100%;
+  right: 50%;
+  background: url("../img/ducks.png") 0 0/100% no-repeat;
+  -webkit-animation-name: duck2;
+          animation-name: duck2;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+.screen__object-2:hover {
+  display: none;
+}
+.screen__object-3 {
+  display: inline-block;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  bottom: -100%;
+  right: 40%;
+  background: url("../img/ducks.png") 0 0/100% no-repeat;
+  -webkit-animation-name: duck4;
+          animation-name: duck4;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+.screen__object-3:hover {
+  display: none;
+}
+.screen__object-4 {
+  display: inline-block;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  bottom: -100%;
+  right: 90%;
+  background: url("../img/ducks.png") 0 0/100% no-repeat;
+  -webkit-animation-name: duck3;
+          animation-name: duck3;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+.screen__object-4:hover {
+  display: none;
+}
+
+@-webkit-keyframes decor1 {
+  0% {
+    top: -120px;
+    left: -13px;
+  }
+  50% {
+    left: -3px;
+    top: -10px;
+  }
+  100% {
+    top: -3px;
+  }
+}
+
+@keyframes decor1 {
+  0% {
+    top: -120px;
+    left: -13px;
+  }
+  50% {
+    left: -3px;
+    top: -10px;
+  }
+  100% {
+    top: -3px;
+  }
+}
+@-webkit-keyframes duck {
+  0% {
+    bottom: -100%;
+    left: 90%;
+  }
+  50% {
+    bottom: 50%;
+    left: 80%;
+  }
+  100% {
+    bottom: 110%;
+    left: 40%;
+  }
+}
+@keyframes duck {
+  0% {
+    bottom: -100%;
+    left: 90%;
+  }
+  50% {
+    bottom: 50%;
+    left: 80%;
+  }
+  100% {
+    bottom: 110%;
+    left: 40%;
+  }
+}
+@-webkit-keyframes duck4 {
+  0% {
+    bottom: -100%;
+    left: 60%;
+    transform: rotate(160deg);
+  }
+  50% {
+    bottom: 50%;
+    left: 35%;
+    transform: rotate(60deg);
+  }
+  100% {
+    bottom: 110%;
+    left: 90%;
+    transform: rotate(10deg);
+  }
+}
+@keyframes duck4 {
+  0% {
+    bottom: -100%;
+    left: 60%;
+    transform: rotate(160deg);
+  }
+  50% {
+    bottom: 50%;
+    left: 35%;
+    transform: rotate(60deg);
+  }
+  100% {
+    bottom: 110%;
+    left: 90%;
+    transform: rotate(10deg);
+  }
+}
+@-webkit-keyframes duck1 {
+  0% {
+    bottom: -100%;
+    left: 15%;
+    transform: rotate(20deg);
+  }
+  50% {
+    bottom: 50%;
+    left: 35%;
+    transform: rotate(80deg);
+  }
+  100% {
+    bottom: 110%;
+    left: 50%;
+  }
+}
+@keyframes duck1 {
+  0% {
+    bottom: -100%;
+    left: 15%;
+    transform: rotate(20deg);
+  }
+  50% {
+    bottom: 50%;
+    left: 35%;
+    transform: rotate(80deg);
+  }
+  100% {
+    bottom: 110%;
+    left: 50%;
+  }
+}
+@-webkit-keyframes duck2 {
+  0% {
+    bottom: -100%;
+    left: 40%;
+    transform: rotate(-10deg);
+  }
+  50% {
+    bottom: 30%;
+    right: 15%;
+    transform: rotate(-40deg);
+  }
+  100% {
+    bottom: 110%;
+    left: 10%;
+  }
+}
+@keyframes duck2 {
+  0% {
+    bottom: -100%;
+    left: 40%;
+    transform: rotate(-10deg);
+  }
+  50% {
+    bottom: 30%;
+    right: 15%;
+    transform: rotate(-40deg);
+  }
+  100% {
+    bottom: 110%;
+    left: 10%;
+  }
+}
+@-webkit-keyframes duck3 {
+  0% {
+    bottom: -100%;
+    right: 5%;
+    transform: rotate(40deg);
+  }
+  50% {
+    bottom: 50%;
+    right: 45%;
+    transform: rotate(20deg);
+  }
+  100% {
+    bottom: 110%;
+    right: 5%;
+  }
+}
+@keyframes duck3 {
+  0% {
+    bottom: -100%;
+    right: 5%;
+    transform: rotate(40deg);
+  }
+  50% {
+    bottom: 50%;
+    right: 45%;
+    transform: rotate(20deg);
+  }
+  100% {
+    bottom: 110%;
+    right: 5%;
+  }
+}
